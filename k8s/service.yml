@@ -9,5 +9,7 @@ spec:
   ports:
   - name: "ubuntu-desktop-lxde-vnc"
     port: 80
+  - name: "mysterium"
+    port: 4494
   selector:
     app: ubuntu-desktop-lxde-vnc
